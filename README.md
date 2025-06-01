@@ -38,8 +38,7 @@ The application uses the following MySQL tables:
 
 ### 🔹  `signup`
 Stores user registration details.
-
-```sql
+sql
 CREATE TABLE signup (
   form_no VARCHAR(20) PRIMARY KEY,
   name VARCHAR(100),
